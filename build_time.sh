@@ -160,7 +160,7 @@ fi
 
 mkdir -p "$outdir"
 echo "Find output in: ${outdir}"
-echo "Local path: $repo_path"
+echo "Package location: $repo_path"
 print_repetition_info "$max_trials" 
 
 # Main loop to loop over trials and branches and measure building/checking time for specified repo
